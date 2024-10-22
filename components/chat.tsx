@@ -6,10 +6,10 @@ export const Chat = () => {
 	const { messages, input, handleInputChange, handleSubmit } = useChat();
 	return (
 		<div className="flex flex-col w-full max-w-md py-24 mx-auto stretch">
-			{messages.map(m => (
-				<div key={m.id} className="whitespace-pre-wrap">
-					{m.role === "user" ? "User: " : "AI: "}
-					{m.content}
+			{messages.map(message => (
+				<div key={message.id} className="whitespace-pre-wrap">
+					{message.role === "user" ? "User: " : "AI: "}
+					{message.content}
 				</div>
 			))}
 
