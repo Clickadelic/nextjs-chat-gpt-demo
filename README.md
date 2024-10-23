@@ -14,4 +14,4 @@ Unfortunately, then OpenAI ChatGPT tiers are changing very frequently and by the
 
 ## ShadCN/UI and Tailwind
 
-This project has ShadCN preconfigured, but not implemented yet.
+This project has ShadCN UI preconfigured, so you don't need to install anything.
